@@ -12,6 +12,8 @@ import UserGreeting from './UserGreeting.jsx'
 
 import List from './List.jsx'
 
+import UseState from './UseState.jsx'
+
 function App() {
     return (
         <>
@@ -35,6 +37,8 @@ function App() {
             <UserGreeting isLoggedIn={false} username="Gary Li"></UserGreeting>
 
             <List></List>
+
+            <UseState></UseState>
         </>
     );
 }
