@@ -1,0 +1,11 @@
+/* Using a module for styling helps avoid naming conflicts. */
+/* Right click the button on the webpage, inspect it, and you'll see that it has a unique className that is hash-generated. */
+
+.button {
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,164 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    text-rendering: optimizeLegibility;
+}
+
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+/* ---------------------------------------------------------------------------------- */
+
+/* The above is default code that was generated during project creation */
+
+/* ---------------------------------------------------------------------------------- */
+
+.card {
+    border: 1px solid lightsalmon;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px orange;
+
+    padding: 20px;
+    /* top right bottom left */
+    margin: 20px 20px 30px 20px;
+
+    text-align: center;
+    max-width: 300px;
+    display: inline-block;
+}
+
+.card .card-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card .card-title {
+    /* sans-serif in case Arial can't be loaded for whatever reason */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: orange;
+}
+
+.card .card-text {
+    font-family: Arial, sans-serif;
+    color: lightgray;
+}
+
+/* This is external CSS styling. Moving to module CSS styling instead. */
+/* .button {
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+} */
+
+/* External CSS: Great for global styles or small projects */
+/* Modules CSS: Preferred for individual components that have their own unique styles */
+/* Inline CSS: Good for any small components with minimal styling (no responsive CSS) */
+
+
+.my-artists {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.my-artists p {
+    margin: 0;
+}
+
+
+
+.welcome-message {
+    font-size: 2.5em;
+    background-color: hsl(120, 100%, 42%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.login-prompt {
+    font-size: 2.5em;
+    background-color: hsl(0, 100%, 42%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
