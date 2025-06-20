@@ -14,6 +14,10 @@ import List from './List.jsx'
 
 import UseState from './UseState.jsx'
 
+import Counter from './Counter.jsx'
+
+import OnChange from './OnChange.jsx'
+
 function App() {
     return (
         <>
@@ -39,6 +43,10 @@ function App() {
             <List></List>
 
             <UseState></UseState>
+
+            <Counter></Counter>
+
+            <OnChange></OnChange>
         </>
     );
 }
