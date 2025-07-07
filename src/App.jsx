@@ -18,6 +18,8 @@ import Counter from './Counter.jsx'
 
 import OnChange from './OnChange.jsx'
 
+import ColorPicker from './ColorPicker.jsx'
+
 function App() {
     return (
         <>
@@ -47,6 +49,8 @@ function App() {
             <Counter></Counter>
 
             <OnChange></OnChange>
+
+            <ColorPicker></ColorPicker>
         </>
     );
 }
